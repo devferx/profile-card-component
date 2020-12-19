@@ -18,3 +18,28 @@ html {
   font-family: "Kumbh Sans", sans-serif;
   font-weight: 400;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: var(--dark-cyan);
+}
+
+.card {
+  min-width: 288px;
+  height: 350px;
+  width: 85%;
+  max-width: 337px;
+  background-color: white;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.card__bg {
+  height: 150px;
+  width: 100%;
+  background-image: url("../images/bg-pattern-card.svg");
+}
