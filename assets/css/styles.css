@@ -53,3 +53,19 @@ body {
   border: 4px solid white;
   border-radius: 50%;
 }
+
+.card__name {
+  margin-top: 1.6rem;
+  font-size: 1.8rem;
+  color: var(--very-dark-desaturated-blue);
+}
+
+.card__name__age {
+  color: var(--dark-gray);
+}
+
+.card__location {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: var(--dark-gray);
+}
